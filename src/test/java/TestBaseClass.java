@@ -5,7 +5,7 @@ public class TestBaseClass {
     @BeforeAll
     public static void init(){
         RestAssured.baseURI = "";
-        RestAssured.port = 0;
+        RestAssured.port = 8080;
         RestAssured.basePath = "";
     }
 }
